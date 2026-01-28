@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+
+# Build artifacts
+*.o
+*.app
+PortScannerBin
+Icon.png
+MyIcon.iconset
+MyIcon.icns
+.build/
+.swiftpm/
+
+# Local Dev
+*.log
