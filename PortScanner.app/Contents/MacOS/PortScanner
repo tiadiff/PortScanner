@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR=$(dirname "$0")
+BINARY="$DIR/PortScannerBin"
+# Use AppleScript to relaunch with admin privileges
+osascript -e "do shell script \"'$BINARY'\" with administrator privileges"
